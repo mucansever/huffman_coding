@@ -12,15 +12,15 @@ I implemented Huffman encoding, decoding, serialise for transferphases. In order
 ## Requirements
 C++11
 ## Usage
-First compile and create the executable file using: \
+First compile and create the executable file using: 
 ```
 make 
 ```
-Then a .txt file needs to be encoded using: \
+Then a .txt file needs to be encoded using: 
 ```
 ./main -i <input_file> -encode 
 ```
-After we've encoded, a tree.txt file will be created, following commands will be available for use: \
+After we've encoded, a tree.txt file will be created, following commands will be available for use: 
 ```
 ./main -i <input_file> -decode  // Decodes given encoded file 
 ./main -l                       // Visualizes the huffman tree 
