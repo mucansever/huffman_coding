@@ -25,4 +25,4 @@ After we've encoded, a tree.txt file will be created, following commands will be
 ./main -i <input_file> -decode  // Decodes given encoded file 
 ./main -l                       // Visualizes the huffman tree 
 ./main -s <char>                // Gives encoding for a specific character 
-` ``
+```
