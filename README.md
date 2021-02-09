@@ -2,7 +2,7 @@
 Huffman encoder/decoder
 ## What's Huffman Encoding?
 Huffman algorithm is a powerful algorithm that is used for compressing textual data to make file occupy  less  space  with  respect  to  number  of  bytes.   Intuitively,  the  algorithm  works  based  on  a frequency sorted binary tree to encode the input. \
-Normally,  textual  data  is  stored  using  ASCII  encoding  with  8  bits  per  character.   8  bits  fixed encoding is not an efficient way to store large data, thus Huffman encoding uses binary encoding with variable sizes.  The advantage of this idea is that characters with high frequency is given short encoding while ones with low frequency is given high encoding. \
+Normally,  textual  data  is  stored  using  ASCII  encoding  with  8  bits  per  character.   8  bits  fixed encoding is not an efficient way to store large data, thus Huffman encoding uses binary encoding with variable sizes.  The advantage of this idea is that characters with high frequency is given short encoding while ones with low frequency is given high encoding. 
 ## Implementation
 I implemented Huffman encoding, decoding, serialise for transferphases. In order to perform Huffman encoding following steps were used:
 1.  Count the number of occurrences of each character.
