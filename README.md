@@ -14,15 +14,15 @@ C++11
 ## Usage
 First compile and create the executable file using: \
 `
-make
+make \
 `
 Then a .txt file needs to be encoded using: \
 `
-./main -i <input_file> -encode 
+./main -i <input_file> -encode \
 `
 After we've encoded, a tree.txt file will be created, following commands will be available for use: \
 `
-./main -i <input_file> -decode  // Decodes given encoded file
-./main -l                       // Visualizes the huffman tree
-./main -s <char>                // Gives encoding for a specific character
+./main -i <input_file> -decode  // Decodes given encoded file \
+./main -l                       // Visualizes the huffman tree \
+./main -s <char>                // Gives encoding for a specific character \
 `
